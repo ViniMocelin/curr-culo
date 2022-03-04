@@ -1,0 +1,52 @@
+.texto::first-letter{
+    background-color: aqua;
+    font-size: x-large;
+}
+.texto::selection{
+    background-color: aquamarine;
+}
+li{
+    text-align: center;
+    list-style: none;
+}
+li::before{
+    content: "❤️";
+    font-size: 20px;
+    color: red;
+    margin: 10px;
+}
+li::after{
+    content: "🥳";
+    font-size: 20px;
+    margin: 10px;
+}
+body{
+     background-repeat: no-repeat;
+        background: linear-gradient(45deg,#FF008E,#D22779,#612897,#0C1E7F,
+        #1A1A40,#270082,#7A0BC0); background-size: 500% 500%; 
+        animation: cold 10s ease-in-out infinite; } 
+        @keyframes cold { 0% { background-position: 0% 50%; } 50% { background-position: 50% 100%; }
+         100% 
+        { background-position: 100% 100%; }  
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pai{
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 20%;
+}
+.vo{
+    display: flex;
+    align-items: center;
+}
